@@ -189,10 +189,10 @@
     margin-top: 7px;
 }
 .btn-secondary {
-  width: 103px;
-  margin-top: -41px;
-  margin-left: 142px;
-  margin-right: -68px;
+    margin-left: 107px;
+    margin-right: -68px;
+    margin-top: -41px;
+    width: 98px;
 }
 .brand-filter {
   display: block; /* Ensure the brand filter is visible */

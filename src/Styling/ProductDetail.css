@@ -153,9 +153,10 @@
   }
 
   #addtocart{
-    margin-left: -34%;
+     border-radius: 0px;
+    margin-left: -48%;
     margin-top: 1px;
-    width: 106%;
+    width: 127%;
   }
   .btn-secondary {
     width: 100%;

@@ -1,0 +1,50 @@
+/* Base styles for the About component */
+.about {
+  max-width: 800px;
+  margin: 0 auto;
+  height: 67.8vh;
+  padding: 20px;
+  }
+  
+  .about h2 {
+    font-size: 24px;
+    margin-bottom: 15px;
+    margin-top: 11%;
+  }
+  
+  .about p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 15px;
+  }
+  
+  /* Media Query for 768px */
+  @media screen and (max-width: 768px) {
+    .about {
+      padding: 15px;
+    }
+  
+    .about h2 {
+      font-size: 20px;
+    }
+  
+    .about p {
+      font-size: 14px;
+    }
+  } 
+  
+  /* Media Query for 480px */
+  @media screen and (max-width: 480px) {
+    .about {
+      padding: 10px;
+    }
+  
+    .about h2 {
+      font-size: 18px;
+    }
+  
+    .about p {
+      font-size: 12px;
+    }
+  }
+  

@@ -1,0 +1,186 @@
+/* Helpdesk.css */
+.background-container {
+    position: relative;
+}
+
+/* Add styles for the background image */
+.background-image {
+    position: absolute;
+    top: -75px;
+    left: 0;
+    width: 100%;
+    height: 139%;
+    z-index: -1;
+}
+
+#helpdesk-container {
+    margin-left: 22.5vw;
+    margin-bottom: 44px;
+    max-width: 800px;
+    border-radius: 13px;
+    margin-top: 136px;
+    margin-bottom: 8vh;
+    padding: 20px;
+    border: 1px solid #d1cfcf;
+    background-color: white;
+}
+
+#contact-form {
+    margin-top: -2%;
+    border: none;
+    box-shadow: none;
+}
+
+#contact-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.heading {
+    font-size: 30px;
+    margin-left: -39.7vw;
+    margin-bottom: 2vh;
+    background: linear-gradient(to right, #fea240, #cb6aca, #7a5bf6);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+#Input-Contact-Form-Fname {
+    height: 5vh;
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: transparent;
+    width: 350px;
+    margin-left: -52.5%;
+}
+
+#Input-Contact-Form-Lname {
+    height: 5vh;
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    margin-top: -73px;
+    width: 350px;
+    background-color: transparent;
+    margin-left: 53%;
+}
+
+#Input-Contact-Form-Mail {
+    height: 5vh;
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    width: 350px;
+    margin-top: -8px;
+    background-color: transparent;
+    margin-left: -52.5%;
+}
+
+#Input-Contact-Form-Phone {
+    height: 5vh;
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    margin-top: -73px;
+    width: 350px;
+    background-color: transparent;
+    margin-left: 53%;
+}
+
+#Input-Contact-Form-Phone-Reason {
+
+    height: 15vh;
+    width: 97.5%;
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    resize: vertical;
+    margin-top: -8px;
+    background-color: transparent;
+    margin-left: 0.5%;
+}
+
+#Contact-submit-btn {
+    height: 8vh;
+    width: 779px;
+    margin-left: 1px;
+    background: linear-gradient(to right, #fea240, #cb6aca, #7a5bf6);
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    margin-top: -26px;
+    cursor: pointer;
+}
+
+#Contact-submit-btn:hover {
+    background: linear-gradient(to right, #f0a657, #eea0ec, #9b8cd9);
+}
+
+@media (max-width: 768px) {
+    #helpdesk-container {
+        margin-left: 5%;
+        max-width: 79%;
+
+    }
+
+    #Input-Contact-Form-Fname {
+        height: 3vh;
+        width: 122%;
+        margin-left: 0px;
+    }
+
+    #Input-Contact-Form-Lname {
+        margin-top: -1vh;
+        width: 122%;
+        margin-left: 0px;
+    }
+
+    #Input-Contact-Form-Mail {
+        margin-top: -1vh;
+        width: 122%;
+        margin-left: 0px;
+    }
+
+    #Input-Contact-Form-Phone {
+        margin-top: -1vh;
+        width: 122%;
+        margin-left: 0px;
+    }
+
+    #Input-Contact-Form-Phone-Reason {
+        margin-top: -1vh;
+        height: 14vh;
+        width: 122%;
+        margin-left: 0px;
+    }
+}
+
+/* Media Query for screens with a width of 480px */
+@media (max-width: 480px) {
+    .heading {
+        margin-bottom: 3px;
+        font-size: 24px;
+        margin-left: -51vw;
+    }
+
+    #Contact-submit-btn {
+        height: 5vh;
+        width: 131%;
+        margin-left: -38px;
+
+    }
+}

@@ -1,0 +1,114 @@
+/* Login.css */
+.login-container {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 40px;
+  background-color: transparent;
+  margin-top: 5%;
+  margin-bottom: 5%;
+
+}
+
+.login-form {
+  padding: 30px;
+  display: flex;
+  border: 1px solid #f0f0f0;
+  border-radius: 10px;
+  box-shadow: 0px 0px 5px 0px;
+  flex-direction: column;
+
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: #cb6aca;
+}
+#username,#password{
+  width:318px;
+ }
+.form-control {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+.login-button {
+  background: linear-gradient(to right, #fea240, #cb6aca, #7a5bf6);
+  color: #fff;
+  padding: 10px;
+  border: none;
+  width:340px;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+.login-button:hover{
+  background: linear-gradient(to right, #f0a657, #eea0ec, #9b8cd9);
+}
+
+
+.create-account {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.create-account a {
+  background: linear-gradient(to right, #fea240, #cb6aca, #7a5bf6);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+  text-decoration: none;
+}
+
+.social-login {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.google-button:hover,
+.facebook-button:hover {
+  background-color: #f0f0f0;
+}
+.login-button {
+  width: 341px;
+}
+/* Responsive Design */
+@media (max-width: 768px) {
+  .login-container {
+    max-width: 100%;
+    margin: 20px;
+    padding: 20px;
+  }
+  #username {
+    width: 239px;
+}
+.h2 {
+  color: #fea240;
+  font-weight: 600;
+  margin-bottom: 14px;
+  font-size: 25px;
+}
+}
+
+@media (max-width: 480px) {
+  h2 {
+    margin-bottom: 14px;
+    font-size: 25px;
+}
+  .login-container {
+    padding: 15px;
+    margin-top: 59%;
+  }
+  #username,#password{
+    width: 239px;
+}
+.login-button {
+  width: 260px;
+}
+}

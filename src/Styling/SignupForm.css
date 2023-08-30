@@ -1,0 +1,116 @@
+/* Basic styling */
+.Form {
+  margin-bottom: 8vh;
+  height: 77vh;
+  padding: 20px;
+  margin-left: 35vw;
+  margin-top: 10%;
+  max-width: 400px;
+  border: 1px solid #f0f0f0;
+  border-radius: 10px;
+  box-shadow: 0px 0px 5px 0px;
+}
+
+label {
+  font-weight: bold;
+  color: #cb6aca;
+  margin-bottom: 10px;
+}
+
+input,
+button {
+  display: block;
+  width: 379px;
+  margin-top: 8px;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.error {
+  color: red;
+  font-size: 14px;
+  margin-top: 5px;
+}
+
+#signup {
+  width: 400px;
+  background: linear-gradient(to right, #fea240, #cb6aca, #7a5bf6);
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+/* Responsive CSS */
+@media (max-width: 768px) {
+  .Form {
+    margin-bottom: 8vh;
+    height: 65vh;
+    padding: 20px;
+    margin-left: 4vw;
+    margin-top: 32%;
+    max-width: 315px;
+    border: 1px solid #f0f0f0;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px 0px;
+
+  }
+
+  input,
+  button {
+    display: block;
+    width: 295px;
+    margin-top: 8px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+
+  #signup {
+    width: 318px;
+    background: linear-gradient(to right, #fea240, #cb6aca, #7a5bf6);
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+}
+
+@media (max-width: 480px) {
+  .Form {
+    margin-bottom: 8vh;
+    height: 65vh;
+    padding: 20px;
+    margin-left: 4vw;
+    margin-top: 32%;
+    max-width: 315px;
+    border: 1px solid #f0f0f0;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px 0px;
+  }
+.Head{
+  color: #fea240;
+  font-weight: 600;
+  margin-bottom: 14px;
+  font-size: 25px;
+}
+  input,
+  button {
+    display: block;
+    width: 295px;
+    margin-top: 8px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+
+  #signup {
+    width: 318px;
+    background: linear-gradient(to right, #fea240, #cb6aca, #7a5bf6);
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+}

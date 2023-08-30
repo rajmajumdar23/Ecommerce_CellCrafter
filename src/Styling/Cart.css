@@ -1,0 +1,298 @@
+/* Cart.css */
+
+/* Base styles for the cart container */
+.cart {
+    padding: 20px;
+    margin-top: 5%;
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+}
+
+/* Styles for the cart header */
+.cart h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+/* Styles for the empty cart message */
+.cart p {
+  font-size: 18px;
+  margin-bottom: 20px;
+  color: #666;
+}
+
+/* Styles for the cart items */
+#card {
+  margin-bottom: 20px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+  width: 1000px;
+  height: 252px;
+  padding-left: 22px;
+}
+
+/* Styles for the trash button */
+#trash-btn {
+    position: relative;
+    top: 10px;
+    right: -78%;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+/* Styles for the cart item image */
+#cart-img {
+  max-width: 100%;
+  height: auto;
+  height: 210px;
+  border-radius: 5px 0 0 5px;
+  margin-top: -34px;
+}
+
+/* Styles for the card body */
+.card-body {
+  padding: 10px;
+}
+
+/* Styles for the product title */
+#prd-title {
+  font-size: 20px;
+  margin-bottom: 10px;
+  color: #333;
+  margin-left: -16px;
+  margin-top: -21%;
+}
+
+/* Styles for the price */
+.card-text {
+  font-size: 18px;
+  margin-bottom: 10px;
+  color: #0074d9;
+}
+
+/* Styles for the quantity controls */
+.quantity-controls {
+  border-radius: 5px;
+  margin-top: -1%;
+  display: flex;
+  align-items: center;
+  box-shadow: 0px 0px 3px 0px;
+  margin-left: -43%;
+  height: 40px;
+  width: 144px;
+}
+
+#prd-brand {
+  margin-top: 0%;
+  margin-left: -44%;
+}
+
+#prd-storage {
+  margin-left: -38.8%;
+  margin-top: -3%;
+}
+
+#prd-price {
+  margin-top: -1%;
+  margin-left: -50.8%;
+}
+
+/* Styles for the quantity buttons */
+#cart-btn1,
+#cart-btn2,
+.cart-quantity {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 24px;
+  margin: 0 10px;
+  color: #0074d9;
+}
+
+/* Styles for the Buy Now and Clear Cart buttons */
+#clearcart {
+  margin-top: 0%;
+  font-weight: bolder;
+  padding: 10px 20px;
+  font-size: 18px;
+  cursor: pointer;
+  color: #fff;
+  height: 7vh;
+  top: 2vh;
+  width: 38%;
+  margin-left: -20px;
+  background: #fea240;
+  border: #fea240;
+  border-radius: 0px;
+  position: relative;
+}
+
+#buynow {
+  height: 7vh;
+  margin-top: -37px;
+  margin-left: 541px;
+  padding: 10px 20px;
+  font-size: 18px;
+  cursor: pointer;
+  background: #fe4040;
+  color: #fff;
+  width: 64.8%;
+  position: relative;
+  border: #fe4040;
+  border-radius: 0px;
+}
+
+#clearcart:hover {
+  background: #f1a656;
+}
+
+#buynow:hover {
+  background: #f46363;
+}
+
+/* Media Queries for responsiveness */
+
+/* Tablet and smaller screens (768px and below) */
+@media screen and (max-width: 768px) {
+
+  /* Adjust styles for smaller screens */
+  #card {
+    flex-basis: calc(50% - 20px);
+    margin-right: 20px;
+    width: auto;
+    /* Adjust card width to fit the screen */
+  }
+
+  .col-md-4 {
+    flex-basis: 100%;
+    /* Ensure image takes up full width on smaller screens */
+    margin-bottom: 10px;
+  }
+
+  /* Center align Buy Now and Clear Cart buttons */
+  button {
+    margin: 10px auto 0;
+  }
+}
+
+/* Very small screens (480px and below) */
+@media screen and (max-width: 480px) {
+  /* Adjust styles for very small screens */
+
+  /* Center align Buy Now and Clear Cart buttons */
+  button {
+    margin: 10px auto 0;
+  }
+
+  /* Additional styles for very small screens */
+  #cart-img {
+    height: 83px;
+    border-radius: 0;
+    margin-top: -29px;
+  }
+
+  #prd-title {
+    text-align: left;
+    width: 130px;
+    font-size: 15px;
+    margin-bottom: 10px;
+    line-break: auto;
+    color: #333;
+    margin-left: 58px;
+    margin-top: -48%;
+  }
+
+  #prd-brand {
+    display: none;
+  }
+
+  #prd-storage {
+    display: none;
+  }
+
+  #prd-price {
+    font-size: 15px;
+    margin-top: -4%;
+    margin-left: -6.8%;
+  }
+
+  #cart-btn1,
+  #cart-btn2,
+  .cart-quantity {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 15px;
+    margin: 0 10px;
+    color: #0074d9;
+  }
+
+  .quantity-controls {
+    width: 117px;
+    margin-top: -4%;
+    display: flex;
+    align-items: center;
+    box-shadow: 0px 0px 3px 0px;
+    margin-left: 20%;
+    height: 25px;
+  }
+
+  #trash-btn {
+    position: relative;
+    top: -11px;
+    right: -40%;
+    background: none;
+    border: none;
+    cursor: pointer;
+  }
+
+  #card {
+    flex-basis: 100%;
+    margin-right: 0;
+    width: 247px;
+    height: 205px;
+  }
+
+  #clearcart {
+    position: fixed;
+    margin-top: 192%;
+    font-weight: bolder;
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+    color: #fff;
+    height: 7vh;
+    top: 4vh;
+    width: 168px;
+    margin-left: -20px;
+    border-radius: 0px;
+    background: #fea240;
+    border: #fea240;
+
+  }
+
+  #buynow {
+    position: fixed;
+    margin-top: 192%;
+    font-weight: bolder;
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+    color: #fff;
+    height: 7vh;
+    top: 4vh;
+    width: 220px;
+    margin-left: 148px;
+    border-radius: 0px;
+    border: #fe4040;
+    background: #fe4040;
+  }
+  .cart {
+    margin-top: 13%;
+    padding: 20px;
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+}
+}

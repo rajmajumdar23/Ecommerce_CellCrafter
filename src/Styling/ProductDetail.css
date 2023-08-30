@@ -1,0 +1,225 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,300&display=swap');
+
+
+.card {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+}
+
+.card-title {
+  font-size: 18px;
+  margin-bottom: 10px;
+  flex: 1;
+  font-family: 'DM Sans', sans-serif;
+}
+
+.card-text {
+  font-size: 16px;
+  margin-bottom: 10px;
+  display: none;
+  font-family: 'DM Sans', sans-serif;
+
+}
+
+.card-body {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px 0 0 5px;
+  flex: 1;
+}
+
+.card-price {
+  text-align: left;
+  color: red;
+  font-size: 15px;
+  margin-top: -1px;
+  font-family: 'DM Sans', sans-serif;
+}
+
+#addtocart {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  width: 146px;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  align-self: flex-end;
+  margin-top: -2px;
+  margin-left: -15px;
+  font-family: 'DM Sans', sans-serif;
+}
+
+#addtocart:hover {
+  background-color: #0056b3;
+}
+
+.btn-secondary {
+    height: 42px;
+    margin-right: -15px;
+    width: 98px;
+    margin-left: 134px;
+    background-color: #ccc;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    align-self: flex-end;
+    margin-top: -40.9px;
+}
+
+.btn-secondary:hover {
+  background-color: #999;
+}
+
+/* Style for the modal */
+.modal-content {
+  margin-left: 8%;
+  background-color: #fff;
+  padding: 27px;
+  border-radius: 5px;
+  text-align: center;
+  max-width: 80%;
+  height: 78.5vh;
+  position: relative;
+  margin-top: 6%;
+  box-shadow: 0px 0px 5px 0px;
+  font-family: 'DM Sans', sans-serif;
+}
+.product-lebels {
+  font-weight: bold;
+  color: #333; /* Customize the color as needed */
+  /* Add any other styles you want for product labels */
+}
+#close-modal {
+  position: fixed;
+  background-color: transparent;
+  color: black;
+  margin-top: -1%;
+  margin-left: 30%;
+}
+
+.modal-content img {
+  max-width: 15%;
+  height: auto;
+  border-radius: 5px;
+}
+
+.modal-content h2 {
+  font-size: 24px;
+  margin-top: 10px;
+}
+
+.modal-content p {
+  font-size: 16px;
+  text-align: justify;
+}
+
+.modal-content button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  margin-top: 10px;
+}
+
+.modal-content button:hover {
+  background-color: #0056b3;
+}
+
+
+@media screen and (max-width: 768px) {
+
+  .card-text {
+    font-size: 14px;
+  }
+
+  #addtocart{
+    margin-top: 1px;
+    width: 115%;
+    margin-left: -38%;
+  }
+  .btn-secondary {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+
+  .card-title {
+    font-size: 16px;
+  }
+
+  .card-text {
+    font-size: 14px;
+    display: block;
+  }
+
+  .Modal-Content {
+    height: 548px;
+    position: absolute;
+    inset: 40px;
+    overflow: auto;
+    border-radius: 4px;
+    outline: none;
+    height:70vh;
+    padding: 20px;
+    background-color: #fff;
+    margin-top: 100px;
+    width: 281px;
+  }
+
+  .modal-content {
+    width: 245px;
+    margin-left: -4%;
+    padding: 27px;
+    padding-bottom: 20px;
+    border-radius: 5px;
+    height: 63.5vh;
+    text-align: center;
+    max-width: 86%;
+    margin-top: 11%;
+    box-shadow: 0px 0px 5px 0px;
+  }
+
+  #close-modal {
+    position: fixed;
+    background-color: transparent;
+    color: black;
+    margin-top: -7%;
+    margin-left: 13%;
+  }
+  .modal-content img {
+    max-width: 70%;
+    height: auto;
+    border-radius: 5px;
+}
+.block{
+  display: none;
+}
+  .modal-content h2 {
+    font-size: 20px;
+  }
+
+  .modal-content p {
+    font-size: 14px;
+  }
+}

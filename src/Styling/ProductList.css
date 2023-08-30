@@ -1,0 +1,231 @@
+/* Base styles for the product list container */
+.product-list {
+  max-width: 100%;
+  padding: 20px;
+  margin-top: 5%;
+  overflow-x: hidden; /* This will hide the horizontal scrollbar */
+}
+/* Styles for the search bar */
+.search-bar input[type="text"] {
+  width: 97.9%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+.brand-filter {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  flex-wrap: wrap; /* Allow items to wrap to the next line */
+}
+.brand-filter label {
+  margin-top: -11px;
+  font-weight: bold;
+  margin-right: 10px;
+}
+.react-tabs__tab-list {
+  border: none;
+}
+.brand-filter select {
+  width: 200px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-right: 10px; /* Adjust the margin as needed */
+  margin-bottom: 10px; /* Adjust the margin as needed */
+}
+/* Styles for the sorting options */
+.sorting-options {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    margin-top: -67px;
+    margin-left: 1217px;
+}
+
+.sorting-options label {
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.sorting-options select {
+  width: 200px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* Style for the "None" option */
+.sorting-options select option[value=""] {
+  font-weight: bold;
+}
+
+/* Style for the selected sorting order */
+.sorting-options select option[selected="true"] {
+  background-color: #007bff;
+  color: #fff;
+}
+
+/* Styles for the filter bar */
+.filter-bar {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.filter-bar label {
+  margin-right: 10px;
+}
+
+.filter-bar select {
+  width: 200px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-right: 10px; /* Adjust the margin as needed */
+  margin-bottom: 10px; /* Adjust the margin as needed */
+}
+
+/* Styles for the category tabs */
+.react-tabs {
+  width: 100%;
+}
+
+.react-tabs__tab-list {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 10px;
+  padding: 0;
+}
+
+.react-tabs__tab {
+  flex-grow: 1;
+  text-align: center;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 151px;
+  margin-right: 10px;
+  margin-bottom: 5px;
+
+}
+
+/* Styles for the product display */
+.product-display {
+  margin-top: 20px;
+}
+
+.product-display h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.product-display ul {
+  list-style: none;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.product-display li {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  background-color: #fff;
+}
+
+
+/* Media Queries */
+
+@media screen and (max-width: 768px) {
+
+  /* Styles for tablet screens */
+  .filter-bar {
+    flex-direction: column;
+  }
+
+  .product-display ul {
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  }
+}
+.btn-primary {
+  margin-left: -15px;
+  width: 67%;
+  margin-top: 7px;
+} 
+@media screen and (max-width: 480px) {
+
+  .product-list {
+    max-width: 100%;
+    padding: 20px;
+    margin-top: 14%;
+    overflow-x: hidden;
+  }
+  /* Styles for mobile screens */
+  .react-tabs__tab {
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+
+  .product-display ul {
+    grid-template-columns: 3fr;
+  }
+
+  .search-bar input[type="text"] {
+    width: 94%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  .btn-primary {
+    margin-left:-67px;
+    width: 114%;
+    margin-top: 7px;
+}
+.btn-secondary {
+  width: 103px;
+  margin-top: -41px;
+  margin-left: 142px;
+  margin-right: -68px;
+}
+.brand-filter {
+  display: block; /* Ensure the brand filter is visible */
+  margin-top: 10px; /* Add some space from the content above */
+}
+
+.brand-filter label {
+  font-weight: bold;
+  margin-right: 10px;
+  margin-bottom: 5px; /* Add some space between label and select */
+}
+
+.brand-filter select {
+  width: 30%; /* Make the select box full width */
+  margin-right: 0; /* Reset the right margin */
+}
+
+/* Adjust styles for the sorting options */
+  .sorting-options {
+    margin-top: -68.5px;
+    margin-left: 185px;
+    width: 165px;
+}
+
+.sorting-options label {
+  font-weight: bold;
+  margin-right: 10px;
+  margin-bottom: 5px; /* Add some space between label and select */
+}
+
+.sorting-options select {
+  width: 100%; /* Make the select box full width */
+  margin-right: 0; /* Reset the right margin */
+}
+
+}

@@ -106,9 +106,10 @@
     margin-top: 59%;
   }
   #username,#password{
-    width: 239px;
+    width: 202px;
 }
 .login-button {
-  width: 260px;
+     margin-left: -2px;
+    width: 226px;
 }
 }

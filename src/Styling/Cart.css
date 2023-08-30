@@ -242,7 +242,7 @@
   #trash-btn {
     position: relative;
     top: -11px;
-    right: -40%;
+    right: -31%;
     background: none;
     border: none;
     cursor: pointer;
@@ -256,8 +256,8 @@
   }
 
   #clearcart {
-    position: fixed;
-    margin-top: 192%;
+    position: relative;
+    margin-top: 7%;
     font-weight: bolder;
     padding: 10px 20px;
     font-size: 18px;
@@ -274,8 +274,8 @@
   }
 
   #buynow {
-    position: fixed;
-    margin-top: 192%;
+    position:relative;
+    margin-top: 59px;
     font-weight: bolder;
     padding: 10px 20px;
     font-size: 18px;
@@ -293,6 +293,6 @@
     margin-top: 13%;
     padding: 20px;
     background-color: #ffffff;
-    border: 1px solid #ddd;
+    border: 1px solid #ffffff;
 }
 }

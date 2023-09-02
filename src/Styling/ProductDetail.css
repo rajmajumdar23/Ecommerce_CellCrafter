@@ -191,13 +191,14 @@
   .modal-content {
     border-radius: 5px;
     box-shadow: 0 0 5px 0;
-  height: 70.5vh;
-    margin-left: -6%;
+    height: 70.5vh;
+    margin-left: -5%;
     margin-top: -6%;
-    max-width: 81%;
+    max-width: 86%;
     padding: 27px 27px 20px;
     text-align: center;
     width: 245px;
+
   }
 
   #close-modal {

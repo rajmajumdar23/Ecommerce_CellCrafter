@@ -275,13 +275,13 @@
 
   #buynow {
     position:relative;
-    margin-top:-49.5px;
+    margin-top: -58.5px;
     font-weight: bolder;
     padding: 10px 20px;
     font-size: 18px;
     cursor: pointer;
     color: #fff;
-    height: 7vh;
+    height: 58px;
     top: 4vh;
     width: 220px;
     margin-left: 148px;

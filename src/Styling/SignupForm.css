@@ -91,6 +91,7 @@ button {
   }
 .Head{
   color: #fea240;
+  margin-left: 4%;
   font-weight: 600;
   margin-bottom: 14px;
   font-size: 25px;
@@ -105,7 +106,12 @@ button {
     border: 1px solid #ccc;
     border-radius: 4px;
   }
-
+.form-field{
+   margin-left: 4%;
+}
+  #confirmPassword{
+    margin-left: 4%;
+  }
   #signup {
     width: 292px;
     background: linear-gradient(to right, #fea240, #cb6aca, #7a5bf6);

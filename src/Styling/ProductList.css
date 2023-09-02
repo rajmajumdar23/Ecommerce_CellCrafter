@@ -189,11 +189,11 @@
     margin-top: 7px;
 }
 .btn-secondary {
-    border-radius: 0px;
+    border-radius: 0;
+    height: 41px;
     margin-left: 107px;
     margin-right: -68px;
-    margin-top: -41px;
-    height: 41px;
+    margin-top: -44.2px;
     width: 98px;
 }
 .brand-filter {

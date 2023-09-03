@@ -214,8 +214,8 @@
 
 /* Adjust styles for the sorting options */
   .sorting-options {
+       margin-left: 185px;
     margin-top: -68.5px;
-    margin-left: 204px;
     width: 165px;
 }
 

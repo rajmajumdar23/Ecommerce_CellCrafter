@@ -279,12 +279,13 @@
     padding: 10px 20px;
     font-size: 18px;
     cursor: pointer;
+          margin-left: 42%;
     color: #fff;
-        height: 51.8px;
+height: 51.8px;
     top: 4vh;
     margin-top: -65.5px;
     width: 235px;
-    margin-top: -59.5px;
+   margin-top: -59.5px;
     border-radius: 0px;
     border: #fe4040;
     background: #fe4040;

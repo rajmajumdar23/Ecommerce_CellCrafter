@@ -106,10 +106,10 @@
     padding: 15px;
   }
   #username,#password{
-    width: 259px;
+    width:239px;
 }
 .login-button {
      margin-left: -2px;
-    width: 282px;
+    width: 265px;
 }
 }
